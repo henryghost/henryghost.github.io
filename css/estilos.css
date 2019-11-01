@@ -1,0 +1,147 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: sans-serif;
+}
+
+header {
+	background: #000;
+	color: orange;
+	padding: 30px;
+	margin: 30px;
+	width: 900px;
+}
+
+.nav li {
+	display: inline-block;
+	float: right;
+	margin: 130px 1px 1px;
+	padding: 0 10px 0;
+	font-size: 20px;
+	font-family: serif;
+}
+
+ul {
+	list-style: none;
+}
+
+.lista {
+	list-style: square;
+}
+
+a {
+	color: orange;
+	text-decoration: none;
+}
+
+.cuerpo {
+	background: #33aaee;
+	padding: 30px;
+	margin: 30px;
+	height: auto;
+	width: 900px;
+	border:solid grey;
+	text-align: left;
+	font-size: 20px;
+}
+
+h1 {
+	margin: 20px;
+	color: #000020;
+}
+
+h2 {
+	color: #000020;
+}
+
+td {
+	padding: 0 40px 0;
+	text-align: left;
+}
+
+#funciones1 {
+	display: none;
+	width: auto; 
+	height: auto; 
+	background: #33aaee; 
+	color: #003030;
+}
+
+#funciones2 {
+	display: none;
+	width: auto; 
+	height: auto; 
+	background: #33aaee; 
+	color: #003030;
+}
+
+#funciones3 {
+	display: none;
+	width: auto; 
+	height: auto; 
+	background: #33aaee; 
+	color: #003030;
+}
+
+#funciones4 {
+	display: none;
+	width: auto; 
+	height: auto; 
+	background: #33aaee; 
+	color: #003030;
+}
+
+input {
+	font-size: 18px;
+	background: #33aaee;
+	color: #800000;
+	border: none;
+}
+
+footer {
+	padding: 70px;
+}
+
+button {
+	margin: 30px;
+	padding: 10px;
+	font-size: 30px;
+	background: #44bbff;
+	color: #003030;
+	border-radius: 20px;
+}
+
+.modal {
+  display: none; 
+  position: fixed;
+  z-index: 1; 
+  width: auto; 
+  height: auto; 
+  overflow: auto; 
+  background: #404040;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; 
+  padding: 20px;
+  border: 1px solid #888;
+  width: auto;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}

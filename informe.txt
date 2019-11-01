@@ -1,0 +1,15 @@
+DIFICULTADES ENCONTRADAS:
+
+me costo bastanete realizar las funciones en JS
+y los Modales debido a mis pocos conocimientos
+en JS
+
+CONCLUSIONES:
+
+necesito estudiar y practicar mucho mas
+
+HERRAMIENTAS UTILIZADAS:
+
+Sublime Text
+
+https://github.com/henryghost/hojaDeVida

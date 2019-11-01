@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<title>HABILIDADES</title>
+</head>
+<body>
+	<script src="js/main.js"></script>
+	<header>
+		<nav>
+			<ul class="nav">
+				<li><a href="habilidades.html">habilidades</a> </li>
+				<li><a href="experiencia.html">experiencia</a> </li>
+				<li><a href="estudios.html">estudios</a> </li>
+				<li><a href="datos.html">datos personales</a> </li>
+				<li><a href="index.html">inicio</a> </li>
+			</ul>
+		</nav>
+		<div>
+			<img src="imagenes/foto.jpg">
+		</div>
+	</header>
+	<div class="cuerpo">
+		<button id="boton1" onclick="funcionModal1();">FRONTEND</button>
+
+		<div id="myModal1" class="modal">
+			<div class="modal-content">
+				<span class="close" onclick="cerrarModal1()">&times;</span>
+				<ul>
+					<li>Nivel de HTML: bajo</li>
+					<li>Nivel de CSS: bajo</li>
+					<li>Nivel de JS: nulo</li>
+				</ul>
+			</div>
+		</div>
+
+		<button id="boton2" onclick="funcionModal2();">BACKEND</button>
+
+		<div id="myModal2" class="modal">
+			<div class="modal-content">
+				<span class="close" onclick="cerrarModal2()">&times;</span>
+				<p>Ninguna habilidad en backend</p>
+			</div>
+		</div>
+
+	</div>
+	<footer>
+		<p>HENRY SALAZAR CARVAJAL <br/>henry.salazar@correounivalle.edu.co</p>
+	</footer>
+
+</body>
+</html>
